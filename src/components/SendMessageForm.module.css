@@ -1,0 +1,45 @@
+
+.div{
+    /* display: inherit; */
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 236, 238);
+}
+.div>button{
+    /* float: right; */
+    /* margin-right: 10px; */
+    background-color: rgba(121, 70, 155, 0.959);
+    position: relative;
+    right: 0;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 5px;
+    height: 40px;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.div>button:active{
+    border: none;
+    outline: none;
+}
+.div>input{
+    margin-left: 15px;
+    border: none;
+    width: 90%;
+    background-color: rgba(243, 238, 238, 0);
+    float: left;
+    /* overflow: visible; */
+}
+.div>input:focus{
+    border: none;
+    outline: none;
+}
+.icon{
+    color: rgb(231, 228, 228);
+}

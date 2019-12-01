@@ -1,0 +1,55 @@
+.li{
+    list-style-type: none;
+    border-top: 0.5px solid rgb(148, 140, 148);
+    width: 100%;
+    padding: 10px 5px;
+    height: 70px;
+    color: black;
+    overflow: hidden;
+}
+.currentLi{
+    height: 70px;
+    overflow: hidden;
+    list-style-type: none;
+    border-top: 0.5px solid rgb(148, 140, 148);
+    width: 100%;
+    border-right: 10px solid rgba(121, 70, 155, 0.884);
+    padding: 10px 5px;
+    background-color: rgb(209, 203, 209);
+}
+.userInitial{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: rgb(137, 72, 175);
+    font-weight: bold;
+    font-family: cursive;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+    color: rgb(224, 216, 224);
+    border-radius: 50%;
+    border: 0.5px solid rgb(117, 80, 121);
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+.activeLink{
+    color: black;
+}
+.link:visited{
+    color: rgb(65, 62, 62);
+}
+.li:hover{
+    cursor: pointer;
+    border-bottom: none;
+    text-decoration: none;
+    background-color: rgb(216, 214, 216);
+}
+.li::after{
+    border-bottom: none;
+    text-decoration: none;
+    border-left: 5px solid rgb(97, 27, 93);
+    background-color: rgb(216, 214, 216);
+}

@@ -1,0 +1,42 @@
+.div{
+    padding: 0;
+    margin: 0;
+}
+/* .menu{
+    background-color: brown;
+    width: 20%;
+    height: 100%;
+} */
+/* .chat{
+    max-height: 78vh;
+    min-height: 78vh;
+    height: 78vh;
+    overflow: auto;
+} */
+
+@media (max-width: 650px){
+    .usersField{
+        position: fixed;
+        /* height: 100%; */
+        z-index: 200;
+        width: 75%;
+        transition: transform 0.3s ease-out;
+    }
+    .open{
+        transform: translateX(0);
+    }
+    .close{
+        transform: translateX(-100%);
+    }
+    .chat{
+        width: 100%;
+    }
+}
+@media (min-width: 650px){
+    .usersField{
+        width: 30%;
+    }
+    .chat{
+        width: 70%;
+    }
+}

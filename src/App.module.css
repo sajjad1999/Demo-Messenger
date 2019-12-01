@@ -1,0 +1,19 @@
+.div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+.router{
+    width: 90%;
+    height: 100%;
+}
+.wideMenu{
+    background-color: lawngreen;
+    width: 10%;
+    height: 100vh;
+}
+.smallMenu{
+    width: 20%;
+    height: 100vh;
+}

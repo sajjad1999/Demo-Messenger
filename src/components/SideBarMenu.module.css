@@ -1,0 +1,38 @@
+.wideDiv{
+    background-color: rgb(93, 20, 116);
+    width: 100%;
+    color: white;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 8px;
+    height: 50px;
+    vertical-align: middle;
+}
+.buttonContainer{
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    vertical-align: middle;
+}
+.buttonContainer>button{
+    background-color: rgba(213, 191, 216, 0);
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+.buttonContainer>button:focus{
+    border: none;
+    outline: none;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(93, 20, 116);
+}
